@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ad6071c-37f5-4464-9715-6694f4a955ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/post1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/post2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/post3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gioi-thieu.html" beforeDir="false" afterPath="$PROJECT_DIR$/gioi-thieu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/linh-vuc-hoat-dong.html" beforeDir="false" afterPath="$PROJECT_DIR$/linh-vuc-hoat-dong.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post2.html" beforeDir="false" afterPath="$PROJECT_DIR$/post2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post3.html" beforeDir="false" afterPath="$PROJECT_DIR$/post3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tin-tuc-su-kien.html" beforeDir="false" afterPath="$PROJECT_DIR$/tin-tuc-su-kien.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tu-bo-ngay-nhung-thoi-quen-co-the-am-tham-tan pha-xuong-khop.html" beforeDir="false" afterPath="$PROJECT_DIR$/post.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673680681763</updated>
       <workItem from="1673680682854" duration="4990000" />
-      <workItem from="1673789874002" duration="1579000" />
+      <workItem from="1673789874002" duration="1887000" />
     </task>
     <servers />
   </component>
