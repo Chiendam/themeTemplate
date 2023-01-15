@@ -7691,6 +7691,12 @@ main {
     padding-bottom: 25px;
     position: relative
 }
+.bannerHome .item .container .copy h2 {
+    color: #fff;
+    font-size: 84px;
+    padding-bottom: 25px;
+    position: relative
+}
 
 .bannerHome .item .container .copy p {
     font-size: 16px;
