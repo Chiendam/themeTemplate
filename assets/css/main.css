@@ -706,7 +706,12 @@ select {
 .slick-arrow.slick-hidden {
     display: none
 }
-
+.slick-prev:before {
+    content: ''!important;
+}
+.slick-next:before {
+    content: ''!important;
+}
 .slick-next,
 .slick-prev {
     font-size: 0;
@@ -726,41 +731,38 @@ select {
 
 .slick-prev {
     left: 80px;
-    background: url(../images/btn-prev.png) center left/32px no-repeat;
-    border-right: 1px solid #f4f4f4;
+    background: url(../images/chevron-left.png) center left/32px no-repeat;
     padding-right: 16px
 }
 
 .slick-prev:hover {
-    background: url(../images/btn-prev-b.png) center left/32px no-repeat
+    background: url(../images/chevron-left-h.png) center left/32px no-repeat
 }
 
 .slick-next {
     right: 80px;
-    background: url(../images/btn-next.png) center right/32px no-repeat;
-    border-left: 1px solid #f4f4f4;
+    background: url(../images/chevron-right.png) center right/32px no-repeat;
     padding-left: 16px
 }
 
 .slick-next:hover {
-    background: url(../images/btn-next-b.png) center right/32px no-repeat
+    background: url(../images/chevron-right-h.png) center right/32px no-repeat
 }
 
 .slick-dots {
     position: absolute;
-    bottom: 25px;
+    bottom: -50px;
     display: block;
-    width: 100%;
+    width: calc(100vw - 395px);
     padding: 0;
-    margin-left: 5%;
     list-style: none;
-    text-align: left
+    text-align: center;
 }
 
 .slick-dots li {
     position: relative;
     display: inline-block;
-    width: 12px;
+    width: 45px;
     height: 12px;
     margin: 0 4px;
     padding: 0;
@@ -771,25 +773,28 @@ select {
     font-size: 0;
     line-height: 0;
     display: block;
-    width: 12px;
-    height: 12px;
+    width: 40px;
+    height: 3px;
     cursor: pointer;
     color: transparent;
     border: 0;
     outline: 0;
-    background: #fff;
-    border-radius: 100px;
-    padding: 0
+    background: darkseagreen;
+    border-radius: 1px;
+    padding: 0;
 }
 
 .slick-dots li button:focus,
 .slick-dots li button:hover {
     outline: 0;
-    background: #0e6447
+    background: white;
 }
 
 .slick-dots li.slick-active button {
-    background: #0e6447
+    background: white;
+}
+.slick-dots li button:before{
+    content: '' !important;
 }
 
 .bannerHome .slick-list,
@@ -7654,7 +7659,7 @@ main {
 }
 
 .bannerHome {
-    height: 100vh;
+    height: calc(60vh + 50px);
     opacity: 0
 }
 

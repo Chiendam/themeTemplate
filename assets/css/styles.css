@@ -85,3 +85,45 @@ input.has-error:-moz-placeholder {
 .partnerPageWrap .title2:after {
     width: 100%;
 }
+.slideBanner{
+    width: calc(100vw - 95px);
+    height: 60vh;
+    padding-top: 50px!important;
+    padding-left: 150px!important;
+    padding-right: 150px!important;
+}
+.itemSlide{
+    width: 100%;
+    position: relative;
+    padding-bottom: 50px;
+    height: calc(60vh - 50px);
+}
+.mainSlide{
+    width: 75%;
+    height: calc(60vh - 100px);
+}
+.mainSlide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.subSlide{
+    width: 45%;
+    height: calc(60vh - 100px);
+    top: 50px;
+    position: absolute;
+    right: 0;
+    padding: 25px;
+    background-color: white;
+    border-radius: 0 20px 0 20px;
+}
+.subSlide .title-slide{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #0e6447;
+}
+.subSlide .desc-slide{
+    font-size: 14px;
+    color: gray;
+}
